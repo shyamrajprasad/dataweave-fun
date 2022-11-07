@@ -2,4 +2,4 @@
 import divideBy from dw::core::Objects
 output application/json
 ---
-{ "divideBy" : {"a": 1, "b" : true, "a" : 2, "b" : false, "c" : 3} divideBy 2 }
+{ "a": 1, "b": true, "a": 2, "b": false, "c": 3 } divideBy 2 
