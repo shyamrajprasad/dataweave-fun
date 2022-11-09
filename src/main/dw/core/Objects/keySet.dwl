@@ -6,10 +6,5 @@ var myVar = read('<users xmlns="http://test.com">
                   </users>', 'application/xml')
 output application/json
 ---
-{ keySetExample: flatten([keySet(myVar.users) map $.#,
-                          keySet(myVar.users) map $.@])
-}
-++
-{ nameSet: flatten([nameSet(myVar.users) map $.#,
-                    nameSet(myVar.users) map $.@])
-}
+keySet(myVar.users) map $.@
+
