@@ -1,5 +1,5 @@
 %dw 2.0
-import countCharactersBy, isNumeric from dw::core::Strings
+import * from dw::core::Strings
 
 output application/json
 ---
