@@ -1,4 +1,5 @@
 %dw 2.0
+//https://help.mulesoft.com/s/question/0D52T000068elL8SAI/json-representation-of-excel-to-json
 output application/json
 var headingRow = payload.result.Report.Metadata.HeadingRow
 var x =valuesOf(payload.result.Report.Values groupBy $$[0] mapObject (
