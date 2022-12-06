@@ -7,5 +7,6 @@ output application/json
    "b": leftPad("", 3),
    "c": leftPad("bat", 5),
    "d": leftPad("bat", 3),
-   "e": leftPad("bat", -1)
+   "e": leftPad("bat", -1),
+   "f": leftPad("123",6,"0")
 }
