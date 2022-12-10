@@ -2,4 +2,10 @@
 import levenshteinDistance from dw::core::Strings
 output application/json
 ---
-"kitten" levenshteinDistance "sitting"
+{
+a: "kitten" levenshteinDistance "sitting",
+b: "kitten" levenshteinDistance "sitten",
+c: "sitten" levenshteinDistance  "sittin",
+d: "kitten" levenshteinDistance "kitten",
+e: "sittin" levenshteinDistance  "sitting"
+}
