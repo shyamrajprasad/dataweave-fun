@@ -1,0 +1,34 @@
+{
+    "payload": {
+        "Field_X": "X",
+        "Field_Y": "Y",
+        "Field_Z": "Z",
+        "Field_W": {
+            "sub_1": "value_1",
+            "sub_2": true,
+            "sub_3": 10
+        },
+        "Field_S": {
+            "subField": {
+                "sub_6": "deeper value"
+            }
+        }
+    },
+    "mapper": {
+        "A": "<payload.Field_X>",
+        "B": "<payload.Field_Z>",
+        "C": "Fields or text not mapped to payload",
+        "C1": "Tomasz",
+        "D": {
+            "D1": "<payload.Field_W.sub_1>",
+            "D2": "<payload.Field_W.sub_2>",
+            "D3": "<payload.Field_W.sub_3>",
+            "D4": "<payload.Field_W.sub_4>"
+        },
+        "E": {
+            "E1": {
+                "E2": "<payload.Field_S.subField.sub_6>"
+            }
+        }
+    }
+}
