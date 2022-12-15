@@ -1,0 +1,33 @@
+{
+    "message": {
+      "template": {
+        "custom": [
+          {
+            "id": "12345",
+            "substitutions": [
+              {
+                "key": "accountNumber",
+                "value": "123456789"
+              },
+              {
+                "key": "dueDate",
+                "value": "2020-11-10"
+              },
+              {
+                "key": "dueAmount",
+                "value": "100"
+              },
+              {
+                "key": "documentNumber",
+                "value": "6348"
+              },
+              {
+                "key": "lastActionDate",
+                "value": "2020-11-10T12:26:54.122634Z"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }

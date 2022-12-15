@@ -2,4 +2,4 @@
 import * from dw::core::Strings
 output application/json
 ---
-{ balance: ("\$234" mapString if (isNumeric($)) "~" else $) }
+"\$234" mapString if (isNumeric($)) "~" else $
