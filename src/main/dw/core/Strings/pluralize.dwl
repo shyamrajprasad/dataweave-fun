@@ -2,4 +2,8 @@
 import * from dw::core::Strings
 output application/json
 ---
- { "pluralize" : pluralize("box") }
+{   "a": pluralize("foot"),
+    "b": pluralize("child"),
+    "c": pluralize("boss"),
+    "d": pluralize("city")
+}
