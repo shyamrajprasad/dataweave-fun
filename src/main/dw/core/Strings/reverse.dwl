@@ -3,7 +3,7 @@ import * from dw::core::Strings
 output application/json
 ---
  {
-     a: reverse("Mariano"),
+     a: reverse("Shyam Raj Prasad"),
      b: reverse(null),
      c: reverse("")
  }
