@@ -2,4 +2,10 @@
 import * from dw::core::Strings
 output application/json
 ---
-{ "singularize" : singularize("boxes") }
+{ 
+    "a" : singularize("boxes"),
+    "b" : singularize("feet"),
+    "c" : singularize("children"),
+    "d" : singularize("muleys"),
+    "e" : singularize("cities")
+}
