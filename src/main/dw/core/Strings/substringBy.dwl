@@ -2,4 +2,4 @@
 import substringBy from dw::core::Strings
 output application/json
 ---
-"hello~world=here_data-weave" substringBy $ == "~" or $ == "=" or $ == "_"
+"hello~world=here_muleys" substringBy $ == "~" or $ == "=" or $ == "_"

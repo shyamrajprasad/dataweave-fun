@@ -2,4 +2,4 @@
 import substringEvery from dw::core::Strings
 output application/json
 ---
-substringEvery("substringEvery", 3)
+substringEvery("shyamrajprasad", 3)

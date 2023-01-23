@@ -1,0 +1,77 @@
+[	{	"id": 12,
+		"fields":
+		[	{	"name": "field1",
+				"content": { "values": [ "2021-12-09 08:59:23" ] }
+			},
+			{	"name": "field2",
+				"content": { "values": [ "BR", "PT" ] }
+			},
+			{	"name": "field3",
+				"content": { "values": [ "552199991234", "552199992345" ] }
+			},
+			{	"name": "field4",
+				"content": [ "AAA", "BBB" ]
+			},
+			{	"name": "field6",
+				"content": "ABC"
+			},
+			{	"name": "field7",
+				"content": []
+			},
+			{	"name": "otherfield8",
+				"content": { "values": [ "X" ] }
+			}
+		]
+	},
+	{	"id": 23,
+		"fields":
+		[	{	"name": "FIELD1",
+				"content": { "values": [ "2021-12-09 08:59:24" ] }
+			},
+			{	"name": "FIELD2",
+				"content": { "values": [ "BR" ] }
+			},
+			{	"name": "FIELD4",
+				"content": [ "CCC" ]
+			},
+			{	"name": "FIELD5",
+				"content": { "values": [ 1, 2, 3 ] }
+			},
+			{	"name": "FIELD6",
+				"content": "XYZ"
+			},
+			{	"name": "FIELD7",
+				"content": [ "DDD", "EEE" ]
+			},
+			{	"name": "FIELD_8",
+				"content": { "values": [] }
+			}
+		]
+	},
+	{	"id": 34,
+		"fields":
+		[	{	"name": "FIELD1",
+				"content": { "values": [] }
+			},
+			{	"name": "FIELD2",
+				"content": { "values": [] }
+			},
+			{	"name": "FIELD3",
+				"content": { "values": [] }
+			},
+			{	"name": "FIELD4",
+				"content": []
+			},
+			{	"name": "FIELD5",
+				"content": { "values": [] }
+			},
+			{	"name": "FIELD6",
+				"content": ""
+			},
+			{	"name": "FIELD7",
+				"content": []
+			}
+		]
+	}
+]
+ 
