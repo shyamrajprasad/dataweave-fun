@@ -1,0 +1,19 @@
+[{
+
+    "ID": "1",
+    
+    "IP_FieldName": "AddressType[0].value:AddressLine1[0].value:AddressLine2[0].value:AddressLine3[0].value:City[0].value:StateProvince[0].value:ISO3166-3[0].value:Zip[0].value.Zip5[0].value@Zip[0].value.Zip4[0].value:GeoLocation[0].value.Latitude[0].value:GeoLocation[0].value.Longitude[0].value:VerificationStatus[0].value:SubAdministrativeArea[0].value",
+    
+    "OP_ArrayName": "Addresses",
+    
+    "OP_Type": "loop_array",
+    
+    "OP_FieldName": "AddressType:Street1:Street2:Street3:City:StateOrProvince:Country:ZipOrPostalCode:Latitude:Longitude:IsAddressVerified:County",
+    
+    "IP_Parent": "$.attributes.Addresses",
+    
+    "OP_ParentNode": ""
+    
+    }]
+    
+     
