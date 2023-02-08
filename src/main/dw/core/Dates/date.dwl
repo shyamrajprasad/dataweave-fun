@@ -2,6 +2,4 @@
 import * from dw::core::Dates
 output application/json
 ---
-{
-   newDate: date({year: 2012, month: 10, day: 11})
-}
+date({year: 2012, month: 10, day: 11})
