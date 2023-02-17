@@ -1,0 +1,111 @@
+{
+    "count": 1,
+    "offers": [
+      {
+        "offerInfo": {
+          "orderNumber": "1",
+          "orderCreationDtTime": "2023-01-10 00:00:00"
+        },
+        "customers": [
+          {
+            "customerInfo": {
+              "name": {
+                "frstNm": "JOHN",
+                "lstNm": "DOE"
+              }
+            },
+            "customerNum": "50001",
+            "tickets": [
+              {
+                "timestamp": "2023-01-07 00:38:00.167000",
+                "ticketService": {
+                  "ticketNum": "1001",
+                  "ticketType": "3"
+                },
+                "ticketReps": [
+                  {
+                    "seq": "1",
+                    "comment": "1st",
+                    "location": "US"
+                  },
+                  {
+                    "seq": "2",
+                    "comment": "2nd",
+                    "location": "US"
+                  }
+                ]
+              },
+              {
+                "timestamp": "2023-01-11 00:38:00.167000",
+                "ticketService": {
+                  "ticketNum": "1002",
+                  "ticketType": "3"
+                },
+                "ticketReps": [
+                  {
+                    "seq": "3",
+                    "comment": "1st",
+                    "location": "US"
+                  },
+                  {
+                    "seq": "4",
+                    "comment": "2nd",
+                    "location": "US"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "customerInfo": {
+              "name": {
+                "frstNm": "FAN",
+                "lstNm": "SING"
+              }
+            },
+            "customerNum": "50002",
+            "tickets": [
+              {
+                "timestamp": "2023-01-10 00:38:00.167000",
+                "ticketService": {
+                  "ticketNum": "1003",
+                  "ticketType": "3"
+                },
+                "ticketReps": [
+                  {
+                    "seq": "1",
+                    "comment": "1st",
+                    "location": "US"
+                  },
+                  {
+                    "seq": "2",
+                    "comment": "2nd",
+                    "location": "US"
+                  }
+                ]
+              },
+              {
+                "timestamp": "2023-01-19 00:38:00.167000",
+                "ticketService": {
+                  "ticketNum": "1004",
+                  "ticketType": "3"
+                },
+                "ticketReps": [
+                  {
+                    "seq": "1",
+                    "comment": "1st",
+                    "location": "US"
+                  },
+                  {
+                    "seq": "2",
+                    "comment": "2nd",
+                    "location": "US"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
