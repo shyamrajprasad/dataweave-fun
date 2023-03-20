@@ -1,15 +1,15 @@
 %dw 2.0
 output application/json
 var record =  {
-  "title": "XQuery Kick Start",
+  "title": "DataWeave Fun",
   "author": [
     "James McGovern",
     "Per Bothner",
     "Kurt Cagle",
-    "James Linn",
-    "Kurt Cagle",
-    "Kurt Cagle",
-    "Kurt Cagle",
+    "Shyam Raj Prasad",
+    "Shyam Raj Prasad",
+    "Shyam Raj Prasad",
+    "Shyam Raj Prasad",
     "Vaidyanathan Nagarajan"
   ],
   "year":"2000"
