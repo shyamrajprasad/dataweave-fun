@@ -1,0 +1,22 @@
+[
+    { "Student" : "S1",
+       "Hindi" : "pass",
+      "English" : "fail",
+      "Maths" : "pass"
+   },
+   { "Student" : "S2",
+       "Hindi" : "pass",
+      "English" : "pass",
+      "Maths" : "pass"
+   },
+   { "Student" : "S3",
+       "Hindi" : "fail",
+      "English" : "fail",
+      "Maths" : "pass"
+   },
+   { "Student" : "S4",
+       "Hindi" : "pass",
+      "English" : "fail",
+      "Maths" : "fail"
+   }
+   ]

@@ -1,0 +1,38 @@
+[
+    {
+      "rateId": "1I_1",
+      "svcChargeCode": "1I",
+      "svcChargeType": "D",
+      "svcChargeDesc": "Gold Checking",
+      "tieredDesc": "No Limit",
+      "rate": "1.00",
+      "APY": "0.01",
+      "sequence": "1",
+      "siteCoreItemID": "1C51",
+      "tierRateId": "234"
+    },
+    {
+      "rateId": "2I_2",
+      "svcChargeCode": "2I",
+      "svcChargeType": "D",
+      "svcChargeDesc": "Platinum Checking",
+      "tieredDesc": "999.00",
+      "rate": "1.25",
+      "APY": "0.02",
+      "sequence": "2",
+      "siteCoreItemID": "2C52",
+      "tierRateId": "235"
+    },
+    {
+      "rateId": "3I_3",
+      "svcChargeCode": "3I",
+      "svcChargeType": "D",
+      "svcChargeDesc": "Diamond Checking",
+      "tieredDesc": "19999.00",
+      "rate": "2.5",
+      "APY": "0.03",
+      "sequence": "3",
+      "siteCoreItemID": "3C53",
+      "tierRateId": "236"
+    }
+  ]
