@@ -1,0 +1,54 @@
+[
+    {
+      "Bid": "4 Wheeler",
+      "Categories": "5 seater",
+      "SKU": "1234",
+      "Model": "Hatchback",
+      "Company": [
+        {
+          "Company Name": "Mercedes",
+          "Man. Cost": "$500.00",
+          "Reg. Cost": "$100.00",
+          "Del. Cost": "$100.00",
+          "Total Cost": "$700.00"
+        },
+        {
+          "Company Name": "Mahindra",
+          "Man. Cost": "$200.00",
+          "Reg. Cost": "$100.00",
+          "Del. Cost": "$100.00",
+          "Total Cost": "$400.00"
+        }
+      ]
+    },
+    {
+      "Bid": "4 Wheeler",
+      "Categories": "7 seater",
+      "SKU": "4321",
+      "Model": "SUV",
+      "Company": [
+        {
+          "Company Name": "Mahindra",
+          "Man. Cost": "$200.00",
+          "Reg. Cost": "$50.00",
+          "Del. Cost": "$50.00",
+          "Total Cost": "$300.00"
+        }
+      ]
+    },
+    {
+      "Bid": "2 Wheeler",
+      "Categories": "2 seater",
+      "SKU": "5678",
+      "Model": "Motor Bike",
+      "Company": [
+        {
+          "Company Name": "Suzuki",
+          "Man. Cost": "$100.00",
+          "Reg. Cost": "$50.00",
+          "Del. Cost": "$50.00",
+          "Total Cost": "$200.00"
+        }
+      ]
+    }
+  ]
