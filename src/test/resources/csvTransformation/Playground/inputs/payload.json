@@ -1,0 +1,40 @@
+[
+    {
+      "Name": "Rajesh",
+      "Role": "SSE",
+      "Company": "Elevance",
+      "Location": "Banglore",
+      "Skills": [
+        {
+          "Skill": "HTML",
+          "SkillExp": "2years"
+        },
+        {
+          "Skill": "Java Script",
+          "SkillExp": "3years"
+        },
+        {
+          "Skill": "HTML",
+          "SkillExp": "1years"
+        }
+      ],
+      "courses": null
+    },
+    {
+      "Name": "Ravideep",
+      "Role": "SSE",
+      "Company": "Elevance",
+      "Location": "Banglore",
+      "Skills": null,
+      "Courses": [
+        {
+          "Course": "Copado",
+          "CourseExp": "1years"
+        },
+        {
+          "Course": "AutoRabit",
+          "CourseExp": "2years"
+        }
+      ]
+    }
+  ]
