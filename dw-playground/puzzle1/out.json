@@ -1,0 +1,23 @@
+{
+    "LATAM": [
+      {
+        "country": "CA"
+      }
+    ],
+    "EMEA": [
+      {
+        "country": "CA"
+      },
+      {
+        "country": "DE"
+      }
+    ],
+    "APAC": [
+      {
+        "country": "ML"
+      },
+      {
+        "country": "XY"
+      }
+    ]
+  }
