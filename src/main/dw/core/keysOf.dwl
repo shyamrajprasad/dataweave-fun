@@ -10,7 +10,3 @@ output application/json
 { keysOfExample: flatten([keysOf(myVar.users) map $.#,
                           keysOf(myVar.users) map $.@])
 }
-++
-{ namesOfExample: flatten([namesOf(myVar.users) map $.#,
-                    namesOf(myVar.users) map $.@])
-}
