@@ -7,10 +7,11 @@ var readXml = read("<prices>
     </prices>", "application/xml")
 ---
 {
-    a:{"a":"b","c":"d"} pluck (value,key,index) -> { (index) : { (value):key} },
-    "result" : {
-  "keys" : readXml.prices pluck($$),
-  "values" : readXml.prices pluck($) as Number,
-  "indices" : readXml.prices pluck($$$)
-}
+  a: { "a": "b", "c": "d" } pluck (value, key, index) -> 
+          { (index) : { (value):key } },
+  "result": {
+      "keys": readXml.prices pluck ($$),
+      "values": readXml.prices pluck ($) as Number,
+      "indices": readXml.prices pluck ($$$)
+    }
 }    

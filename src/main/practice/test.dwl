@@ -1,28 +1,16 @@
-import diff from dw::util::Diff
-ns ns0 http://locahost.com
-ns ns1 http://acme.com
-output application/dw
+%dw 2.0
+output application/json
+import * from dw::core::Dates
+var startDate = "2022-01-15" as Date
+var endDate = "2023-04-11" as Date
+var noOfMonths = 0 to (((endDate.year - startDate.year) * 12 + (endDate.month - startDate.month)))
+
 ---
+ noOfMonths map ((item, index) -> 
 {
-  "a": diff({a: 1}, {b:1}),
-  "b": diff({ns0#a: 1}, {ns1#a:1}),
-  "c": diff([1,2,3], []),
-  "d": diff([], [1,2,3]),
-  "e": diff([1,2,3], [1,2,3, 4]),
-  "f": diff([{a: 1}], [{a: 2}]),
-  "g": diff({a @(c: 2): 1}, {a @(c: 3): 1}),
-  "h": diff(true, false),
-  "i": diff(1, 2),
-  "j": diff("test", "other test"),
-  "k": diff({a: 1}, {a:1}),
-  "l": diff({ns0#a: 1}, {ns0#a:1}),
-  "m": diff([1,2,3], [1,2,3]),
-  "n": diff([], []),
-  "o": diff([{a: 1}], [{a: 1}]),
-  "p": diff({a @(c: 2): 1}, {a @(c:2): 1}),
-  "q": diff(true, true),
-  "r": diff(1, 1),
-  "s": diff("other test", "other test"),
-  "t": diff({a:1 ,b: 2},{b: 2, a:1}, {unordered: true}),
-  "u": [{format: "ssn",data: "ABC"}] diff [{ format: "ssn",data: "ABC"}]
-}
+              
+      startDate: if(index==0) startDate else date ({year: startDate.year, month: startDate.month, day: 1}) + ("P$(index)M" as Period),
+      endDate: if(index==sizeOf(noOfMonths)-1) endDate else date ({year: startDate.year, month: startDate.month, day: 1}) + ("P$(index+1)M" as Period) - |P1D|
+  }
+
+ ) 
