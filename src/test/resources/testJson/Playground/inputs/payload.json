@@ -1,0 +1,70 @@
+[{
+    "id": "r-1",
+    "href": "r1/",
+    "characters": [{
+            "name": "reward",
+            "value": [{
+                "value": "170.0"
+            }]
+        },
+        {
+            "name": "displayName",
+            "value": [{
+                "value": "2 months FREE"
+            }]
+        },
+        {
+            "name": "redeem",
+            "value": [{
+                "value": "redeem 123"
+            }]
+        }
+    ]
+},
+{
+    "id": "r-2",
+    "href": "r2/",
+    "characters": [{
+            "name": "reward",
+            "value": [{
+                "value": "200.0"
+            }]
+        },
+        {
+            "name": "displayName",
+            "value": [{
+                "value": "3 months FREE"
+            }]
+        },
+        {
+            "name": "redeem",
+            "value": [{
+                "value": "redeem 111"
+            }]
+        }
+    ]
+},
+{
+    "id": "r-3",
+    "href": "r3/",
+    "characters": [{
+            "name": "reward",
+            "value": [{
+                "value": "300.0"
+            }]
+        },
+        {
+            "name": "displayName",
+            "value": [{
+                "value": "4 months FREE"
+            }]
+        },
+        {
+            "name": "redeem",
+            "value": [{
+                "value": "redeem 555"
+            }]
+        }
+    ]
+}
+]

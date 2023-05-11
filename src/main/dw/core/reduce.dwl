@@ -9,14 +9,14 @@ var myVar =
 }
 ---
 {
-  "a" : [0, 1, 2, 3, 4, 5] reduce $$,
-  "b": ["a", "b", "c", "d", "e"] reduce $$,
-  "c": [{ "letter": "a" }, { "letter": "b" }, { "letter": "c" }] reduce ((item, acc = "z") -> acc ++ item.letter),
-  "d": [{ letter: "a" }, { letter: "b" }, { letter: "c" }] reduce $$,
-  "e": [true, false, false, true, true] reduce ($$ and $),
-  "f": [true, false, false, true, true] reduce ((item, acc) -> acc and item),
-  "g": [true, false, false, true, true] reduce ((item, acc = false) -> acc and item),
-  "h": [true, false, false, true, true] reduce $$,
+  "a" : myVar.a reduce $$,
+  "b": myVar.b reduce $$,
+  "c": myVar.c reduce ((item, acc = "z") -> acc ++ item.letter),
+  "d": myVar.c reduce $$,
+  "e": myVar.d reduce ($$ and $),
+  "f": myVar.d reduce ((item, acc) -> acc and item),
+  "g": myVar.d reduce ((item, acc = false) -> acc and item),
+  "h": myVar.d reduce $$,
   "i": myVar.a reduce ($$ + $),
   "j": myVar.a reduce ((item, acc) -> acc + item),
   "k": myVar.a reduce ((item, acc = 3) -> acc + item),
