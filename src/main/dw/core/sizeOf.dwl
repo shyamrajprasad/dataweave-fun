@@ -13,7 +13,7 @@ output application/json
             sizeIs2: sizeOf({ a: 1, b: 2 }),
             sizeIs0: sizeOf({})
         },
-    binarySizes: sizeOf([ "\u0000" as Binary, "\u0001" as Binary, "\u0002" as Binary ]),
+    binarySizes: sizeOf([ "\u0000" as Binary, "\u0001" as Binary]),
     stringSizes: {
             sizeOfSting2: sizeOf("my string"),
             sizeOfEmptyString: sizeOf(""),

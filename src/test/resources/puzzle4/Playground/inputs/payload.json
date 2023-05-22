@@ -1,0 +1,14 @@
+{
+    "id": 1,
+    "name": "Shyam Raj",
+    "username": "shyam",
+    "company": {
+        "name": "DataWeave Fun",
+        "address": {
+            "street": "Koramangala",
+            "city": "Bangalore",
+            "state": "KA",
+            "zipcode": "560034"
+        }
+    }
+}
