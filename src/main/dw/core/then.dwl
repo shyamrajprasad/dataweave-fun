@@ -2,10 +2,10 @@
 output application/json
 ---
 {
-    "chainResult": ["mariano", "de Achaval"]
+    "chainResult": ["Shyam", "Raj"]
             reduce ((item, accumulator) -> item ++ accumulator)
             then ((result) -> sizeOf(result)),
-    "referenceResult" : ["mariano", "de Achaval"]
+    "referenceResult" : ["Shyam", "Raj"]
                          map ((item, index) -> upper(item))
                          then {
                             name: $[0],
