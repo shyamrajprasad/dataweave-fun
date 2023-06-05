@@ -1,4 +1,4 @@
 %dw 2.0
 output application/json
 ---
-"2000-02-31" as Date 
+["1","15","3","25","2","20"] map -$

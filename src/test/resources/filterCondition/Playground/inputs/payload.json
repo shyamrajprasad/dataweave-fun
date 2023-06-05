@@ -1,0 +1,22 @@
+[
+    {
+        "PRODUCT_ID": "1",
+        "ORDER_ID": 1
+    },
+    {
+        "PRODUCT_ID": "2",
+        "ORDER_ID": 1
+    },
+    {
+        "PRODUCT_ID": "3",
+        "ORDER_ID": 1
+    },
+    {
+        "PRODUCT_ID": "1",
+        "ORDER_ID": 2
+    },
+    {
+        "PRODUCT_ID": "3",
+        "ORDER_ID": 2
+    }
+]
