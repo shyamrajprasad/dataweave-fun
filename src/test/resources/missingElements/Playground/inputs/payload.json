@@ -1,0 +1,21 @@
+{
+    "lookUpObject": [
+        {
+            "date": "02/27/2020",
+            "exchangeRate": 71.66
+        },
+        {
+            "date": "02/24/2020",
+            "exchangeRate": 71.87
+        },
+        
+        {
+            "date": "03/07/2020",
+            "exchangeRate": 73.98
+        },
+        {
+            "date": "03/04/2020",
+            "exchangeRate": 73.34
+        }
+    ]
+}
