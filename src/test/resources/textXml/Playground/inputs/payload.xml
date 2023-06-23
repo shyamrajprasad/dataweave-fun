@@ -1,25 +1,45 @@
-<Applications>
-<Application primaryID= "123">
-
-<childLayer>
-
-<field1>abc</field1>
-
-<field2>def</field2>
-
-</childLayer>
-
-</Application>
-
-<Application primaryID= "456">
-
-<childLayer>
-
-<field1>abc</field1>
-
-<field2>def</field2>
-
-</childLayer>
-
-</Application>
-</Applications>
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+<BATCH batchid="170441">
+<TABLE_METADATA>
+<TABLE name="TR_TRN">
+<COLUMNS>
+<COLUMN name="ID_STR_RT" ordinal="0" type="-9"></COLUMN>
+<COLUMN name="ID_WS" ordinal="1" type="-9"></COLUMN>
+<COLUMN name="DC_DY_BSN" ordinal="2" type="-9"></COLUMN>
+<COLUMN name="AI_TRN" ordinal="3" type="4"></COLUMN>
+</COLUMNS>
+</TABLE>
+<TABLE name="TR_RTL">
+<COLUMNS>
+<COLUMN name="ID_STR_RT" ordinal="0" type="-9"></COLUMN>
+<COLUMN name="ID_WS" ordinal="1" type="-9"></COLUMN>
+<COLUMN name="DC_DY_BSN" ordinal="2" type="-9"></COLUMN>
+<COLUMN name="AI_TRN" ordinal="3" type="4"></COLUMN>
+</COLUMNS>
+</TABLE>
+</TABLE_METADATA>
+<ENTITY type="Transaction">
+<TABLE name="TR_TRN">
+<ROWS>
+<ROW>
+<COLUMN_DATA ordinal="0" value="80587"></COLUMN_DATA>
+<COLUMN_DATA ordinal="1" value="003"></COLUMN_DATA>
+<COLUMN_DATA ordinal="2" value="2023-06-08"></COLUMN_DATA>
+<COLUMN_DATA ordinal="3" value="8402"></COLUMN_DATA>
+</ROW>
+</ROWS>
+</TABLE>
+<TABLE name="TR_RTL">
+<ROWS>
+<ROW>
+<COLUMN_DATA ordinal="0" value="80587"></COLUMN_DATA>
+<COLUMN_DATA ordinal="1" value="003"></COLUMN_DATA>
+<COLUMN_DATA ordinal="2" value="2023-06-08"></COLUMN_DATA>
+<COLUMN_DATA ordinal="3" value="8402"></COLUMN_DATA>
+</ROW>
+</ROWS>
+</TABLE>
+</ENTITY>
+</BATCH>
+</root>

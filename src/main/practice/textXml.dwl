@@ -1,9 +1,7 @@
 %dw 2.0
-output appllication/json
+output application/json writeAttributes =true
+//xpath3('root/BATCH/ENTITY/TABLE[@name=\'TR_TRN\']/ROWS/ROW/COLUMN_DATA[@ordinal=\'0\']/@value',payload, "STRING")
+var x = (payload.root.BATCH.ENTITY.*TABLE filter ((item, index) -> item.@name == "TR_TRN")
+)[0].ROWS.ROW 
 ---
-payload.Applications.*Application map ((item, index) -> 
-    {primaryID:item.@primaryID,
-    childField1:item.childLayer.field1,
-    childField2: item.childLayer.field2
-    }
-)
+(x filterObject ((value, key, index) -> value.@ordinal =="0")).COLUMN_DATA.@value
