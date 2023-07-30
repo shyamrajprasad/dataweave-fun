@@ -1,1 +1,18 @@
-{"Details":[{"Name":"State","Codes":["ST1","ST2"],"Descriptions":["State 1","State 2"]},{"Name":"Country","Codes":["CNT1","CNT2"],"Descriptions":["Country 1","Country 2"]}]}
+{
+    "name": "Shyam",
+    "id": "123",
+    "company": "DataWeave Fun",
+    "address1": "1745 T Street Southeast",
+    "address2": "#203",
+    "city": "Washington",
+    "state": "DC",
+    "postalCode": "20020",
+    "address1": "6007 Applegate Lane",
+    "city": "Louisville",
+    "state": "KY",
+    "address1": "560 Penstock Drive",
+    "address2": "",
+    "city": "Grass Valley",
+    "state": "CA",
+    "postalCode": "95945"
+  }
