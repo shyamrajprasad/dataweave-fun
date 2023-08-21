@@ -1,0 +1,7 @@
+<user>
+	<username>SampleName</username>
+	<Info name="address" type="text">address some place</Info>
+	<Info name="gender" type="text">male</Info>
+	<Info name="Description" type="text">user is belongs to account department</Info>
+	<Info name="Designation Delegation" type="text">accountant and clerck</Info>
+</user>
