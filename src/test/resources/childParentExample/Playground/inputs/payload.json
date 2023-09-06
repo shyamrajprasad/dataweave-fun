@@ -1,0 +1,191 @@
+{
+    "pagination": {
+        "offset": 0,
+        "limit": 100,
+        "totalResults": 18,
+        "totalPages": 1,
+        "nextUrl": ""
+    },
+    "results": [
+        {
+            "conceptName": "Partner",
+            "conceptId": "f9f52be1-35e8-45b6-80b2-d02c347d385c",
+            "createdDate": "2020-07-31T23:32:45+0000",
+            "lastModifiedDate": "2023-08-03T19:29:58+0000",
+            
+            "parentConceptIds": [
+                "d6550fa8-a24f-4cc9-9bc9-4abbc21d18ea"
+            ]
+        },
+        {
+            "conceptName": "Build Trust",
+            "conceptId": "4e4b3b0a-6bf1-4c22-a0aa-d3cca9ac4e4b",
+            "createdDate": "2023-06-07T17:57:34+0000",
+            "lastModifiedDate": "2023-06-07T17:57:34+0000",
+            "localizedLabels": [],
+            "parentConceptIds": [
+                "d6550fa8-a24f-4cc9-9bc9-4abbc21d18ea"
+            ]
+        },
+        {
+            "conceptName": "Commitment to align",
+            "conceptId": "2b925571-70ae-4095-a6c5-0bd70ea61378",
+            "createdDate": "2023-06-07T17:57:34+0000",
+            "lastModifiedDate": "2023-06-07T17:57:34+0000",
+            "localizedLabels": [],
+            "parentConceptIds": [
+                "4e4b3b0a-6bf1-4c22-a0aa-d3cca9ac4e4b"
+            ]
+        },
+        {
+            "conceptName": "Commitment to evaluate",
+            "conceptId": "f9734468-2659-4bab-832f-6eeb558b9beb",
+            "createdDate": "2023-06-07T17:57:34+0000",
+            "lastModifiedDate": "2023-06-07T17:57:34+0000",
+            "localizedLabels": [],
+            "parentConceptIds": [
+                "4c5398ea-a641-4e9b-859d-5d037d5786fa"
+            ]
+        },
+        {
+            "conceptName": "Commitment to purchase",
+            "conceptId": "42b10c96-dd57-47e9-a1e0-cdd1a90cbaf5",
+            "createdDate": "2023-06-07T17:57:34+0000",
+            "lastModifiedDate": "2023-06-07T17:57:34+0000",
+            "localizedLabels": [],
+            "parentConceptIds": [
+                "f9f52be1-35e8-45b6-80b2-d02c347d385c"
+            ]
+        },
+        {
+            "conceptName": "Customer 360 Methodology",
+            "conceptId": "d6550fa8-a24f-4cc9-9bc9-4abbc21d18ea",
+            "createdDate": "2023-06-07T17:57:34+0000",
+            "lastModifiedDate": "2023-06-07T17:57:34+0000",
+            "localizedLabels": [],
+            "parentConceptIds": [
+                "3e050569-ea6c-4c10-bf17-d6e8eaece598"
+            ]
+        },
+        {
+            "conceptName": "Deliver Financial Proposal",
+            "conceptId": "4a8b0fd9-a89b-42b1-8e58-3c6e2e0eb4d4",
+            "createdDate": "2023-06-07T17:57:34+0000",
+            "lastModifiedDate": "2023-06-07T17:57:34+0000",
+            "localizedLabels": [],
+            "parentConceptIds": [
+                "42b10c96-dd57-47e9-a1e0-cdd1a90cbaf5"
+            ]
+        },
+        {
+            "conceptName": "Finalize Deal",
+            "conceptId": "06b8a379-90b1-4d91-9891-b57dcfc50960",
+            "createdDate": "2023-06-07T17:57:34+0000",
+            "lastModifiedDate": "2023-06-07T17:57:34+0000",
+            "localizedLabels": [],
+            "parentConceptIds": [
+                "42b10c96-dd57-47e9-a1e0-cdd1a90cbaf5"
+            ]
+        },
+        {
+            "conceptName": "Gather Requirements",
+            "conceptId": "8fa3217f-60f1-40b4-af78-857ac0dfbc54",
+            "createdDate": "2023-06-07T17:57:34+0000",
+            "lastModifiedDate": "2023-06-07T17:57:34+0000",
+            "localizedLabels": [],
+            "parentConceptIds": [
+                "2b925571-70ae-4095-a6c5-0bd70ea61378"
+            ]
+        },
+        {
+            "conceptName": "Grow",
+            "conceptId": "132dce25-6240-4fb4-aa1d-58ae4b7f66d6",
+            "createdDate": "2020-08-12T17:37:59+0000",
+            "lastModifiedDate": "2023-06-07T17:57:34+0000",
+           
+            "parentConceptIds": [
+                "3e54e0d6-c4a5-4902-9685-b95d4d64c8e6"
+            ]
+        },
+        {
+            "conceptName": "Implement",
+            "conceptId": "56c34af8-63b3-4fd8-88aa-1d0be291e4b4",
+            "createdDate": "2023-06-07T17:57:34+0000",
+            "lastModifiedDate": "2023-06-07T17:57:34+0000",
+            "localizedLabels": [],
+            "parentConceptIds": [
+                "3e54e0d6-c4a5-4902-9685-b95d4d64c8e6"
+            ]
+        },
+        {
+            "conceptName": "Listen",
+            "conceptId": "4c5398ea-a641-4e9b-859d-5d037d5786fa",
+            "createdDate": "2023-06-07T17:57:34+0000",
+            "lastModifiedDate": "2023-06-07T17:57:34+0000",
+            "localizedLabels": [],
+            "parentConceptIds": [
+                "d6550fa8-a24f-4cc9-9bc9-4abbc21d18ea"
+            ]
+        },
+        {
+            "conceptName": "Qualify Needs and Value",
+            "conceptId": "a843ac97-48db-43f7-972e-a0e85e00e911",
+            "createdDate": "2023-06-07T17:57:34+0000",
+            "lastModifiedDate": "2023-06-07T17:57:34+0000",
+            "localizedLabels": [],
+            "parentConceptIds": [
+                "f9734468-2659-4bab-832f-6eeb558b9beb"
+            ]
+        },
+        {
+            "conceptName": "Realize Value",
+            "conceptId": "f7a01c9a-eb81-48e8-9375-4ea441460c9c",
+            "createdDate": "2023-06-07T17:57:34+0000",
+            "lastModifiedDate": "2023-06-07T17:57:34+0000",
+            "localizedLabels": [],
+            "parentConceptIds": [
+                "3e54e0d6-c4a5-4902-9685-b95d4d64c8e6"
+            ]
+        },
+        {
+            "conceptName": "Recommend Solution",
+            "conceptId": "66b4e7c2-0d1f-4e23-bd12-da2cb0e116bb",
+            "createdDate": "2023-06-07T17:57:34+0000",
+            "lastModifiedDate": "2023-06-07T17:57:34+0000",
+            "localizedLabels": [],
+            "parentConceptIds": [
+                "2b925571-70ae-4095-a6c5-0bd70ea61378"
+            ]
+        },
+        {
+            "conceptName": "Resolve Concerns",
+            "conceptId": "ace3333e-0a68-4073-8fd1-982f9d9aeaa2",
+            "createdDate": "2023-06-07T17:57:34+0000",
+            "lastModifiedDate": "2023-06-07T17:57:34+0000",
+            "localizedLabels": [],
+            "parentConceptIds": [
+                "42b10c96-dd57-47e9-a1e0-cdd1a90cbaf5"
+            ]
+        },
+        {
+            "conceptName": "Succeed",
+            "conceptId": "3e54e0d6-c4a5-4902-9685-b95d4d64c8e6",
+            "createdDate": "2023-06-07T17:57:34+0000",
+            "lastModifiedDate": "2023-06-07T17:57:34+0000",
+            "localizedLabels": [],
+            "parentConceptIds": [
+                "d6550fa8-a24f-4cc9-9bc9-4abbc21d18ea"
+            ]
+        },
+        {
+            "conceptName": "Validate Solution and Value",
+            "conceptId": "b501508c-1a8b-45fd-86eb-d98b4571da57",
+            "createdDate": "2023-06-07T17:57:34+0000",
+            "lastModifiedDate": "2023-06-07T17:57:34+0000",
+            "localizedLabels": [],
+            "parentConceptIds": [
+                "2b925571-70ae-4095-a6c5-0bd70ea61378"
+            ]
+        }
+    ]
+}
