@@ -1,0 +1,74 @@
+{
+    "characteristics": [
+      {
+        "name": "notes",
+        "value": "testing for characteristics",
+        "valueType": "string"
+      },
+      {
+        "name": "frame1.order",
+        "value": "123",
+        "valueType": "string"
+      },
+      {
+        "name": "frame1.bandwidth",
+        "value": "10",
+        "valueType": "string"
+      },
+      {
+        "name": "frame1.uom",
+        "value": "mm",
+        "valueType": "string"
+      },
+      {
+        "name": "frame1.size.width",
+        "value": "15",
+        "valueType": "string"
+      },
+      {
+        "name": "frame1.size.height",
+        "value": "20",
+        "valueType": "string"
+      },
+      {
+        "name": "bandwidth",
+        "value": "1000",
+        "valueType": "string"
+      },
+      {
+        "name": "frame1.size.length",
+        "value": "120",
+        "valueType": "string"
+      },
+      {
+        "name": "frame2.order",
+        "value": "466",
+        "valueType": "string"
+      },
+      {
+        "name": "frame2.bandwidth",
+        "value": "30",
+        "valueType": "string"
+      },
+      {
+        "name": "frame2.uom",
+        "value": "mm",
+        "valueType": "string"
+      },
+      {
+        "name": "frame2.size.width",
+        "value": "10",
+        "valueType": "string"
+      },
+      {
+        "name": "frame2.size.height",
+        "value": "150",
+        "valueType": "string"
+      },
+      {
+        "name": "frame2.size.length",
+        "value": "150",
+        "valueType": "string"
+      }
+    ]
+  }
